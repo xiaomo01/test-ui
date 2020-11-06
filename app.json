@@ -1,13 +1,38 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/product/product",
+    "pages/price/price",
+    "pages/userCenter/userCenter"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首 页"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "商品橱窗"
+      },
+      {
+        "pagePath": "pages/price/price",
+        "text": "价格走势"
+      },
+      {
+        "pagePath": "pages/userCenter/userCenter",
+        "text": "个人中心"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
