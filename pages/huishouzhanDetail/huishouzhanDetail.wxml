@@ -1,0 +1,69 @@
+<cu-custom isBack="{{true}}">
+  <view slot="backText">回收站详情</view>
+  <view slot="content"></view>
+</cu-custom>
+
+<view style="width: 100%; padding-top: 100%; position:relative;">
+  <view style="position: absolute; top: 0; left: 0;width: 100%; height: 100%; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);">
+  </view>
+</view>
+
+<view class="bg-white padding-tb-lg padding-lr">
+  <view class="text-lg" style="line-height: 1.8;">
+    新城区某小区回收站
+  </view>
+  <view class="text-sm text-gray" style="line-height: 1.8;">
+    <text class="cuIcon-people text-gray margin-right-xs"></text>联系人：张三丰-13245678901
+  </view>
+  <view class="cu-bar" style="min-height: 0; line-height: 1.8;">
+    <view class="action text-gray" style="margin-left: 8rpx; font-size: 24rpx;">
+      <text class="cuIcon-locationfill text-gray text-sm margin-right-xs" style="font-size: 24rpx;"></text>
+      新城区未央路未央回收站
+    </view>
+    <view class="action text-yellow" bindtap="openLocation" style="margin-left: 8rpx; font-size: 24rpx; margin-right: 0;">
+      <text class="cuIcon-focus text-yellow text-sm margin-right-xs" style="font-size: 24rpx;"></text>
+      重新定位
+    </view>
+  </view>
+  <view class="flex margin-top-lg justify-end text-sm text-white">
+    <view class="padding-tb-xs padding-lr text-center" style="width: 180rpx; border-radius: 50px 0 0 50px; background-color: rgb(21, 159, 86);">联系回收站</view>
+    <view class="padding-tb-xs padding-lr text-center" style="width: 180rpx; border-radius: 0 50px 50px 0; background-color: rgb(25, 193, 122);">用户评价</view>
+  </view>
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    回收站图片展示
+  </view>
+</view>
+
+<view class="bg-white padding-lr-sm padding-bottom">
+
+  <view class="flex">
+    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+  </view>
+
+  <view class="flex">
+    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+  </view>
+
+  <view class="flex">
+    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+  </view>
+
+  <view class="flex">
+    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+  </view>
+
+</view>
+
+
+
+
+
+
+
+
+

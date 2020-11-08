@@ -12,6 +12,10 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "ec-canvas": "/ec-canvas/ec-canvas"
+  },
   "tabBar": {
     "color": "#bfbfbf",
     "selectedColor": "#d81e06",

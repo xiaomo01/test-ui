@@ -1,2 +1,48 @@
-<!--pages/userCenter/userCenter.wxml-->
-<text>pages/userCenter/userCenter.wxml</text>
+<scroll-view scroll-y class="scrollPage">
+  <!-- 未登录 -->
+  <view style="position:relative" wx:if="{{loginStatus == 0}}">
+    <image src="../../image/userCenter/back.png" style="width:100%;"></image>
+    <p class="text-lg" style="position:absolute;color: white;top: 60rpx;left: 35rpx;">
+      个人中心
+    </p>
+    <!-- <view style="background: #E0E3DA;width: 90%;height: 1rpx;position:absolute;top: 150rpx;left:30rpx;"></view> -->
+    <view class="cu-avatar_xiu xl round" style="background-image:url(../../image/userCenter/nologo.png);z-index: 2;top: -255rpx;left: 30rpx;"></view>
+    <view class="cu-avatar_text" style="z-index: 2;top: -255rpx;left: 100rpx;">未登录</view>
+    <button class="cu-btn round text-black" style="z-index: 2;top: -255rpx;left: 400rpx;width:20%;" bindtap="login">登录</button>
+  </view>
+
+  <!-- 登录 -->
+  <view style="position:relative" wx:if="{{loginStatus == 1}}">
+    <image src="../../image/userCenter/back.png" style="width:100%;"></image>
+    <p class="text-lg" style="position:absolute;color: white;top: 60rpx;left: 35rpx;">
+      个人中心
+    </p>
+    <!-- <view style="background: #E0E3DA;width: 90%;height: 1rpx;position:absolute;top: 150rpx;left:30rpx;"></view> -->
+    <view class="cu-avatar_xiu xl round" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big99008.jpg);z-index: 2;top: -255rpx;left: 30rpx;"></view>
+    <view class="cu-avatar_text" style="z-index: 2;top: -300rpx;left: 200rpx;">环保生活需要您</view>
+    <view class="cu-avatar_text" style="z-index: 2;top: -240rpx;left: 175rpx;"><text class="cuIcon-mobile xl text-white" style="font-size: 30rpx;">17792251215</text></view>
+  </view>
+  
+  
+  <view class="cu-list menu card-menu margin-bottom-xs shadow-lg radius" style="margin-top: -200rpx;">
+    <view class="cu-item arrow">
+      <view class="content">
+        <image src="../../image/userCenter/icon_dingdan_unselect.png"></image>
+        <text class="text-black margin-left-sm">回收订单</text>
+      </view>
+    </view>
+  </view>
+  <view class="cu-list menu card-menu margin-bottom-xs shadow-lg radius">
+    <view class="cu-item arrow">
+      <view class="content">
+        <image src="../../image/userCenter/icon-fankui.png"></image>
+        <text class="text-black margin-left-sm">意见反馈</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="padding flex flex-direction" wx:if="{{loginStatus == 1}}">
+    <button class="cu-btn bg-green-self round lg shadow" style="width:100%;margin-top:444rpx;height:110rpx;" bindtap="exit">退出登录</button>
+  </view>
+  <!-- <view class="cu-tabbar-height"></view> -->
+</scroll-view>

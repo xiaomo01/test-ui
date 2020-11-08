@@ -1,0 +1,174 @@
+<cu-custom isBack="{{true}}">
+  <view slot="backText">回收站列表</view>
+  <view slot="content"></view>
+</cu-custom>
+
+<view class="fixed margin-top-lg margin-lr bg-white radius">
+  <view class="cu-bar search">
+    <view class="search-form radius">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="请输入回收站名称" confirm-type="search" bindinput="searchIcon"></input>
+    </view>
+  </view>
+</view>
+
+
+<!-- 列表开始 -->
+<view class="cu-list menu-avatar margin-top margin-lr bg-gray">
+
+
+  <!-- 循环体开始 -->
+  <view class="cu-item margin-bottom radius" style="height: 200rpx;" bindtap="goDetail" data-id="{{id}}">
+    <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="content padding-tb-lg">
+      <view class="text-cut text-black">新城区回收站</view>
+      <view class="text-gray text-sm margin-top-xs flex">
+        <text class="text-cut flex">
+            <text class="cuIcon-people text-olive margin-right-xs"></text>张三丰<text class="cuIcon-dianhua text-olive margin-left-xs"></text>13245678901
+        </text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">
+            <text class="cuIcon-locationfill text-olive margin-right-xs"></text>西安市未央区未央路105号
+        </text>
+      </view>
+    </view>
+    <view class="action" style="width: 146rpx;">
+      <view class="text-gray text-xs">{{'<'}} 9.6km</view>
+      <view class="cu-btn round bg-gradual-green button-hover" style="margin-top: 30rpx;">预约</view>
+    </view>
+  </view>
+  <!-- 循环体结束 -->
+
+
+  <!-- 循环体开始 -->
+  <view class="cu-item margin-bottom radius" style="height: 200rpx;">
+    <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="content padding-tb-lg">
+      <view class="text-cut text-black">新城区回收站</view>
+      <view class="text-gray text-sm margin-top-xs flex">
+        <text class="text-cut flex">
+            <text class="cuIcon-people text-olive margin-right-xs"></text>张三丰<text class="cuIcon-dianhua text-olive margin-left-xs"></text>13245678901
+        </text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">
+            <text class="cuIcon-locationfill text-olive margin-right-xs"></text>西安市未央区未央路105号
+        </text>
+      </view>
+    </view>
+    <view class="action" style="width: 146rpx;">
+      <view class="text-gray text-xs">{{'<'}} 9.6km</view>
+      <view class="cu-btn round bg-gradual-green button-hover" style="margin-top: 30rpx;">预约</view>
+    </view>
+  </view>
+  <!-- 循环体结束 -->
+
+
+  <!-- 循环体开始 -->
+  <view class="cu-item margin-bottom radius" style="height: 200rpx;">
+    <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="content padding-tb-lg">
+      <view class="text-cut text-black">新城区回收站</view>
+      <view class="text-gray text-sm margin-top-xs flex">
+        <text class="text-cut flex">
+            <text class="cuIcon-people text-olive margin-right-xs"></text>张三丰<text class="cuIcon-dianhua text-olive margin-left-xs"></text>13245678901
+        </text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">
+            <text class="cuIcon-locationfill text-olive margin-right-xs"></text>西安市未央区未央路105号
+        </text>
+      </view>
+    </view>
+    <view class="action" style="width: 146rpx;">
+      <view class="text-gray text-xs">{{'<'}} 9.6km</view>
+      <view class="cu-btn round bg-gradual-green button-hover" style="margin-top: 30rpx;">预约</view>
+    </view>
+  </view>
+  <!-- 循环体结束 -->
+
+
+  <!-- 循环体开始 -->
+  <view class="cu-item margin-bottom radius" style="height: 200rpx;">
+    <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="content padding-tb-lg">
+      <view class="text-cut text-black">新城区回收站</view>
+      <view class="text-gray text-sm margin-top-xs flex">
+        <text class="text-cut flex">
+            <text class="cuIcon-people text-olive margin-right-xs"></text>张三丰<text class="cuIcon-dianhua text-olive margin-left-xs"></text>13245678901
+        </text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">
+            <text class="cuIcon-locationfill text-olive margin-right-xs"></text>西安市未央区未央路105号
+        </text>
+      </view>
+    </view>
+    <view class="action" style="width: 146rpx;">
+      <view class="text-gray text-xs">{{'<'}} 9.6km</view>
+      <view class="cu-btn round bg-gradual-green button-hover" style="margin-top: 30rpx;">预约</view>
+    </view>
+  </view>
+  <!-- 循环体结束 -->
+
+
+  <!-- 循环体开始 -->
+  <view class="cu-item margin-bottom radius" style="height: 200rpx;">
+    <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="content padding-tb-lg">
+      <view class="text-cut text-black">新城区回收站</view>
+      <view class="text-gray text-sm margin-top-xs flex">
+        <text class="text-cut flex">
+            <text class="cuIcon-people text-olive margin-right-xs"></text>张三丰<text class="cuIcon-dianhua text-olive margin-left-xs"></text>13245678901
+        </text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">
+            <text class="cuIcon-locationfill text-olive margin-right-xs"></text>西安市未央区未央路105号
+        </text>
+      </view>
+    </view>
+    <view class="action" style="width: 146rpx;">
+      <view class="text-gray text-xs">{{'<'}} 9.6km</view>
+      <view class="cu-btn round bg-gradual-green button-hover" style="margin-top: 30rpx;">预约</view>
+    </view>
+  </view>
+  <!-- 循环体结束 -->
+
+
+  <!-- 循环体开始 -->
+  <view class="cu-item margin-bottom radius" style="height: 200rpx;">
+    <view class="cu-avatar round lg" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+    <view class="content padding-tb-lg">
+      <view class="text-cut text-black">新城区回收站</view>
+      <view class="text-gray text-sm margin-top-xs flex">
+        <text class="text-cut flex">
+            <text class="cuIcon-people text-olive margin-right-xs"></text>张三丰<text class="cuIcon-dianhua text-olive margin-left-xs"></text>13245678901
+        </text>
+      </view>
+      <view class="text-gray text-sm flex">
+        <text class="text-cut">
+            <text class="cuIcon-locationfill text-olive margin-right-xs"></text>西安市未央区未央路105号
+        </text>
+      </view>
+    </view>
+    <view class="action" style="width: 146rpx;">
+      <view class="text-gray text-xs">{{'<'}} 9.6km</view>
+      <view class="cu-btn round bg-gradual-green button-hover" style="margin-top: 30rpx;">预约</view>
+    </view>
+  </view>
+  <!-- 循环体结束 -->
+
+
+</view>
+<!-- 列表结束 -->
+
+
+<view class="padding flex flex-direction">
+  <button class="cu-btn line-gray round">点击加载更多</button>
+</view>
+
+<view class="padding text-center h_marginTop_20">暂无更多</view>
+
+
