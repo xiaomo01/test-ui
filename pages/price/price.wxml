@@ -1,3 +1,4 @@
+<!-- 价格走势页 -->
 <scroll-view scroll-y class="scrollPage">
   <!-- 未登录 -->
   <view style="background-color: #00c98d;width:100%;height:120rpx;">

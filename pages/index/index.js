@@ -55,5 +55,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  goList: function(){
+    wx.navigateTo({
+      url: '/pages/huishouzhanList/huishouzhanList'
+    })
+  },
 })

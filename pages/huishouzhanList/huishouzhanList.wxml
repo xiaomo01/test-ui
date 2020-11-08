@@ -1,3 +1,4 @@
+<!-- 回收站列表页 -->
 <cu-custom isBack="{{true}}">
   <view slot="backText">回收站列表</view>
   <view slot="content"></view>

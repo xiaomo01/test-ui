@@ -1,3 +1,4 @@
+<!-- 个人中心页 -->
 <scroll-view scroll-y class="scrollPage">
   <!-- 未登录 -->
   <view style="position:relative" wx:if="{{loginStatus == 0}}">

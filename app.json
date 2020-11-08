@@ -1,18 +1,17 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/product/product",
     "pages/price/price",
     "pages/userCenter/userCenter",
     "pages/huishouzhanDetail/huishouzhanDetail",
-    "pages/huishouzhanList/huishouzhanList"
+    "pages/huishouzhanList/huishouzhanList",
+    "pages/appointment/appointment"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#39b54a",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"white",
+    "navigationBarTextStyle": "white",
     "navigationStyle": "custom"
   },
   "usingComponents": {
@@ -28,8 +27,8 @@
         "text": "首 页"
       },
       {
-        "pagePath": "pages/product/product",
-        "text": "商品橱窗"
+        "pagePath": "pages/appointment/appointment",
+        "text": "预约表单"
       },
       {
         "pagePath": "pages/price/price",

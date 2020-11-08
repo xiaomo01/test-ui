@@ -1,3 +1,4 @@
+<!-- 首页 -->
 <!-- header -->
 <view class="header_view">
   <view class="text-lg header_content">
@@ -21,7 +22,7 @@
   </view>
 
   <!-- list_img -->
-  <view class="list_img_view"><image class="list_img" src="../../image/index/list_btn.png"></image></view>
+  <view class="list_img_view" bindtap="goList"><image class="list_img" src="../../image/index/list_btn.png"></image></view>
 
   <!-- flex_img -->
   <view class="flex" style="padding: 8rpx;">
