@@ -1,6 +1,15 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="banner_div">
-  <image class="banner_img" src="../../image/index/banner.png"></image>
+<scroll-view scroll-y class="scrollPage">
+  <!-- header -->
+  <view class="header_view">
+    <view class="text-lg header_content">
+      位置获取中<text class="cuIcon-unfold header_icon"></text>
+    </view>
   </view>
-</view>
+
+  <!-- main -->
+  <view class="main_view">
+    <view class="banner_view"><image class="banner_img" src="../../image/index/banner.png"></image></view>
+    <view style="background:red;height:1560px;"></view>
+  </view>
+</scroll-view>
