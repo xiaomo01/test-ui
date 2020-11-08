@@ -1,10 +1,9 @@
 <!-- 预约页面 -->
 <!-- header -->
-<view class="header_view">
-  <view class="text-lg header_content">
-    <text class="cuIcon-back header_icon"></text>预约
-  </view>
-</view>
+<cu-custom bgColor="bg-gray" isBack="{{true}}">
+  <view slot="backText">预约</view>
+  <view slot="content"></view>
+</cu-custom>
 
 <!-- main -->
 <view class="main_view">

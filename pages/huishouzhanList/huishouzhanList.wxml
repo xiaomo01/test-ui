@@ -1,5 +1,5 @@
 <!-- 回收站列表页 -->
-<cu-custom isBack="{{true}}">
+<cu-custom bgColor="bg-gray" isBack="{{true}}">
   <view slot="backText">回收站列表</view>
   <view slot="content"></view>
 </cu-custom>
