@@ -5,7 +5,8 @@
     "pages/userCenter/userCenter",
     "pages/huishouzhanDetail/huishouzhanDetail",
     "pages/huishouzhanList/huishouzhanList",
-    "pages/appointment/appointment"
+    "pages/appointment/appointment",
+    "pages/evaluate/evaluate"
   ],
   "window": {
     "backgroundTextStyle": "light",

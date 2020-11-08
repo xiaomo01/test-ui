@@ -28,7 +28,7 @@
   </view>
   <view class="flex margin-top-lg justify-end text-sm text-white">
     <view class="padding-tb-xs padding-lr text-center" style="width: 180rpx; border-radius: 50px 0 0 50px; background-color: rgb(21, 159, 86);">联系回收站</view>
-    <view class="padding-tb-xs padding-lr text-center" style="width: 180rpx; border-radius: 0 50px 50px 0; background-color: rgb(25, 193, 122);">用户评价</view>
+    <view bindtap="goEvaluate" class="padding-tb-xs padding-lr text-center" style="width: 180rpx; border-radius: 0 50px 50px 0; background-color: rgb(25, 193, 122);">用户评价</view>
   </view>
 </view>
 

@@ -1,0 +1,41 @@
+<!-- 评价页面 -->
+<!-- header -->
+<view class="header_view">
+  <view class="text-lg header_content">
+    <text class="cuIcon-back header_icon"></text>评价
+  </view>
+</view>
+
+<!-- main -->
+<view class="main_view">
+  <view class="cu-card">
+    <view class="cu-item shadow">
+      <view class="cu-form-group">
+        <view class="title_label">
+          <text class='cuIcon-titles text-green'></text>评价信息
+        </view>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">评价星级</view>
+        <view>
+          <block wx:for="{{selectNum}}" wx:key="index">
+            <image catchtap='in_xin' class="score_img" id='{{index+1}}' data-in='use_sc2'
+              src='../../image/index/score2.png'></image>
+          </block>
+          <block wx:for="{{noSelectNum}}" wx:key="index">
+            <image catchtap='in_xin' class="score_img" id='{{index+1}}' data-in='use_sc'
+              src='../../image/index/score1.png'></image>
+          </block>
+        </view>
+      </view>
+      <view class="cu-form-group">
+        <textarea maxlength="-1" placeholder="请输入评价内容"></textarea>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- foot_btn -->
+<view class="foot_view">
+  <button class="cu-btn block bg-green margin-tb-sm lg foot_btn">提交评价</button>
+</view>
