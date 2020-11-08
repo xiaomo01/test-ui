@@ -1,15 +1,89 @@
-<!--index.wxml-->
-<scroll-view scroll-y class="scrollPage">
-  <!-- header -->
-  <view class="header_view">
-    <view class="text-lg header_content">
-      位置获取中<text class="cuIcon-unfold header_icon"></text>
+<!-- header -->
+<view class="header_view">
+  <view class="text-lg header_content">
+    位置获取中<text class="cuIcon-unfold header_icon"></text>
+  </view>
+</view>
+
+<!-- main -->
+<view class="main_view">
+  <!-- banner_img -->
+  <view class="banner_view"><image class="banner_img" src="../../image/index/banner.png"></image></view>
+
+  <!-- login_info -->
+  <view class="user_login_view">
+    <image class="user_img" src="../../image/index/banner.png"></image>
+    <view class="user_title_view">
+      <view class="title_name">环保生活需要您</view>
+      <view class="title_label">尚未登录</view>
     </view>
+    <view class="login_btn_view"><button class="cu-btn login_btn" role="button">登录</button></view>
   </view>
 
-  <!-- main -->
-  <view class="main_view">
-    <view class="banner_view"><image class="banner_img" src="../../image/index/banner.png"></image></view>
-    <view style="background:red;height:1560px;"></view>
+  <!-- list_img -->
+  <view class="list_img_view"><image class="list_img" src="../../image/index/list_btn.png"></image></view>
+
+  <!-- flex_img -->
+  <view class="flex" style="padding: 8rpx;">
+    <view class="flex-sub margin-xs"><image class="flex_img" src="../../image/index/price_btn.png"></image></view>
+    <view class="flex-sub margin-xs"><image class="flex_img" src="../../image/index/guide_btn.png"></image></view>
   </view>
-</scroll-view>
+
+  <!-- article_list -->
+  <view class="article_view">
+    <view class="article_title_view">
+      <image class="article_list_img" src="../../image/index/article_list.png"></image>
+      <view class="article_more_view">更多 >></view>
+    </view>
+    <view class="list_content_view">
+      <view class="article_content">
+          <image class="left_img" src="../../image/index/flower.jpg"></image>
+          <view class="right_info">
+            <view class="info_title">如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者</view>
+            <view class="info_content">平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质</view>
+            <view class="info_date">2020.09.26</view>
+          </view>
+      </view>
+      <view class="article_content">
+          <image class="left_img" src="../../image/index/flower.jpg"></image>
+          <view class="right_info">
+            <view class="info_title">如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者</view>
+            <view class="info_content">平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质</view>
+            <view class="info_date">2020.09.26</view>
+          </view>
+      </view>
+      <view class="article_content">
+          <image class="left_img" src="../../image/index/flower.jpg"></image>
+          <view class="right_info">
+            <view class="info_title">如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者</view>
+            <view class="info_content">平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质</view>
+            <view class="info_date">2020.09.26</view>
+          </view>
+      </view>
+      <view class="article_content">
+          <image class="left_img" src="../../image/index/flower.jpg"></image>
+          <view class="right_info">
+            <view class="info_title">如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者</view>
+            <view class="info_content">平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质</view>
+            <view class="info_date">2020.09.26</view>
+          </view>
+      </view>
+      <view class="article_content">
+          <image class="left_img" src="../../image/index/flower.jpg"></image>
+          <view class="right_info">
+            <view class="info_title">如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者</view>
+            <view class="info_content">平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质</view>
+            <view class="info_date">2020.09.26</view>
+          </view>
+      </view>
+      <view class="article_content">
+          <image class="left_img" src="../../image/index/flower.jpg"></image>
+          <view class="right_info">
+            <view class="info_title">如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者如何成为一个合格的环保主义者</view>
+            <view class="info_content">平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质平衡可持续的经济发展至关重要的点是提高国民素质</view>
+            <view class="info_date">2020.09.26</view>
+          </view>
+      </view>
+    </view>
+  </view>
+</view>
