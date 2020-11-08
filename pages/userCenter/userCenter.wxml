@@ -25,7 +25,7 @@
   
   
   <view class="cu-list menu card-menu margin-bottom-xs shadow-lg radius" style="margin-top: -200rpx;">
-    <view class="cu-item arrow">
+    <view class="cu-item arrow" bindtap="goList">
       <view class="content">
         <image src="../../image/userCenter/icon_dingdan_unselect.png"></image>
         <text class="text-black margin-left-sm">回收订单</text>

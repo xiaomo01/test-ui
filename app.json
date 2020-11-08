@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/product/product",
     "pages/price/price",
-    "pages/userCenter/userCenter"
+    "pages/userCenter/userCenter",
+    "pages/huishouzhanDetail/huishouzhanDetail",
+    "pages/huishouzhanList/huishouzhanList"
   ],
   "window":{
     "backgroundTextStyle":"light",

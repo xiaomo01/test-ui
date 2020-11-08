@@ -22,6 +22,11 @@ Component({
       that.setData({
         loginStatus: 1
      })
-    }
+    },
+    goList: function(){
+      wx.navigateTo({
+        url: '/pages/huishouzhanList/huishouzhanList'
+      })
+    },
   }
 })
