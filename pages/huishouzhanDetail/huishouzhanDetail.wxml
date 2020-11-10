@@ -5,7 +5,8 @@
 </cu-custom>
 
 <view style="width: 100%; padding-top: 100%; position:relative;">
-  <view style="position: absolute; top: 0; left: 0;width: 100%; height: 100%; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);">
+  <view
+    style="position: absolute; top: 0; left: 0;width: 100%; height: 100%; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);">
   </view>
 </view>
 
@@ -21,50 +22,180 @@
       <text class="cuIcon-locationfill text-gray text-sm margin-right-xs" style="font-size: 24rpx;"></text>
       新城区未央路未央回收站
     </view>
-    <view class="action text-yellow" bindtap="openLocation" style="margin-left: 8rpx; font-size: 24rpx; margin-right: 0;">
+    <view class="action text-yellow" bindtap="openLocation"
+      style="margin-left: 8rpx; font-size: 24rpx; margin-right: 0;">
       <text class="cuIcon-focus text-yellow text-sm margin-right-xs" style="font-size: 24rpx;"></text>
       重新定位
     </view>
   </view>
   <view class="flex margin-top-lg justify-end text-sm text-white">
-    <view class="padding-tb-xs padding-lr text-center" style="width: 180rpx; border-radius: 50px 0 0 50px; background-color: rgb(21, 159, 86);">联系回收站</view>
-    <view bindtap="goEvaluate" class="padding-tb-xs padding-lr text-center" style="width: 180rpx; border-radius: 0 50px 50px 0; background-color: rgb(25, 193, 122);">用户评价</view>
+    <view class="padding-tb-xs padding-lr text-center"
+      style="width: 180rpx; border-radius: 50px 0 0 50px; background-color: rgb(21, 159, 86);">联系回收站</view>
+    <view bindtap="goEvaluate" class="padding-tb-xs padding-lr text-center"
+      style="width: 180rpx; border-radius: 0 50px 50px 0; background-color: rgb(25, 193, 122);">用户评价</view>
   </view>
 </view>
 
-<view class="cu-bar bg-white margin-top">
+<view class="cu-bar bg-white solid-bottom margin-top">
   <view class="action">
-    回收站图片展示
+    <text class="cuIcon-title text-orange "></text> 评价列表
   </view>
 </view>
-
-<view class="bg-white padding-lr-sm padding-bottom">
-
-  <view class="flex">
-    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+<view class="cu-list menu-avatar comment solids-top">
+  <view class="cu-item info_main">
+    <view class="cu-avatar round"
+      style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view>
+        <view class="content text-grey">莫甘娜</view>
+        <view class="action" style="width: 200rpx;">
+          <block wx:for="{{selectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc2'
+              src='../../image/index/score2.png'></image>
+          </block>
+          <block wx:for="{{noSelectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc'
+              src='../../image/index/score1.png'></image>
+          </block>
+        </view>
+      </view>
+      <view class="text-gray text-content text-df info_content">
+        凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。
+      </view>
+      <view class="margin-top-xs flex justify-between">
+        <view class="text-gray text-df">2018年12月4日</view>
+      </view>
+    </view>
   </view>
 
-  <view class="flex">
-    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
-    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+  <view class="cu-item info_main">
+    <view class="cu-avatar round"
+      style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view>
+        <view class="content text-grey">莫甘娜</view>
+        <view class="action" style="width: 200rpx;">
+          <block wx:for="{{selectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc2'
+              src='../../image/index/score2.png'></image>
+          </block>
+          <block wx:for="{{noSelectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc'
+              src='../../image/index/score1.png'></image>
+          </block>
+        </view>
+      </view>
+      <view class="text-gray text-content text-df info_content">
+        凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。
+      </view>
+      <view class="margin-top-xs flex justify-between">
+        <view class="text-gray text-df">2018年12月4日</view>
+      </view>
+    </view>
   </view>
 
-  <view class="flex">
-    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+  <view class="cu-item info_main">
+    <view class="cu-avatar round"
+      style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view>
+        <view class="content text-grey">莫甘娜</view>
+        <view class="action" style="width: 200rpx;">
+          <block wx:for="{{selectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc2'
+              src='../../image/index/score2.png'></image>
+          </block>
+          <block wx:for="{{noSelectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc'
+              src='../../image/index/score1.png'></image>
+          </block>
+        </view>
+      </view>
+      <view class="text-gray text-content text-df info_content">
+        凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。
+      </view>
+      <view class="margin-top-xs flex justify-between">
+        <view class="text-gray text-df">2018年12月4日</view>
+      </view>
+    </view>
   </view>
 
-  <view class="flex">
-    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
-    <view class="flex-sub margin-xs radius" style="height: 300rpx; background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10001.jpg);"></view>
+  <view class="cu-item info_main">
+    <view class="cu-avatar round"
+      style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view>
+        <view class="content text-grey">莫甘娜</view>
+        <view class="action" style="width: 200rpx;">
+          <block wx:for="{{selectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc2'
+              src='../../image/index/score2.png'></image>
+          </block>
+          <block wx:for="{{noSelectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc'
+              src='../../image/index/score1.png'></image>
+          </block>
+        </view>
+      </view>
+      <view class="text-gray text-content text-df info_content">
+        凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。
+      </view>
+      <view class="margin-top-xs flex justify-between">
+        <view class="text-gray text-df">2018年12月4日</view>
+      </view>
+    </view>
   </view>
 
+  <view class="cu-item info_main">
+    <view class="cu-avatar round"
+      style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view>
+        <view class="content text-grey">莫甘娜</view>
+        <view class="action" style="width: 200rpx;">
+          <block wx:for="{{selectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc2'
+              src='../../image/index/score2.png'></image>
+          </block>
+          <block wx:for="{{noSelectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc'
+              src='../../image/index/score1.png'></image>
+          </block>
+        </view>
+      </view>
+      <view class="text-gray text-content text-df info_content">
+        凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。
+      </view>
+      <view class="margin-top-xs flex justify-between">
+        <view class="text-gray text-df">2018年12月4日</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="cu-item info_main">
+    <view class="cu-avatar round"
+      style="background-image:url(https://ossweb-img.qq.com/images/lol/img/champion/Morgana.png);"></view>
+    <view class="content">
+      <view>
+        <view class="content text-grey">莫甘娜</view>
+        <view class="action" style="width: 200rpx;">
+          <block wx:for="{{selectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc2'
+              src='../../image/index/score2.png'></image>
+          </block>
+          <block wx:for="{{noSelectNum}}" wx:key="index">
+            <image class="score_img" id='{{index+1}}' data-in='use_sc'
+              src='../../image/index/score1.png'></image>
+          </block>
+        </view>
+      </view>
+      <view class="text-gray text-content text-df info_content">
+        凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。凯尔，你被自己的光芒变的盲目。
+      </view>
+      <view class="margin-top-xs flex justify-between">
+        <view class="text-gray text-df">2018年12月4日</view>
+      </view>
+    </view>
+  </view>
+  
 </view>
-
-
-
-
-
-
-
-
-

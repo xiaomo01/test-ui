@@ -1,4 +1,8 @@
 Page({
+  data: {
+    selectNum: 4,//已选星级
+    noSelectNum: 1//未选星级
+  },
   goEvaluate: function () {
     wx.navigateTo({
       url: '/pages/evaluate/evaluate'
