@@ -54,12 +54,9 @@ function initChart(canvas, width, height) {
 
 Page({
   data: {
-    show: false,//控制下拉列表的显示隐藏，false隐藏、true显示
-    show1: false,
-    selectData: ['可回收物品类型', '可回收物品类型1', '可回收物品类型2', '可回收物品类型3', '可回收物品类型4', '可回收物品类型5'],//下拉列表的数据
-    selectData1: ['可回收物品', '可回收物品1', '可回收物品2', '可回收物品3', '可回收物品4', '可回收物品5'],//下拉列表的数据
     index: 0,//选择的下拉列表下标
-    index1: 0,//选择的下拉列表下标
+    date: '2018-12-25',
+    picker: ['可回收物品类型', '可回收物品类型1', '可回收物品类型2', '可回收物品类型3', '可回收物品类型4', '可回收物品类型5'],
     ec: {
       onInit: initChart
     }
@@ -95,5 +92,16 @@ Page({
     });
   },
   onLoad: function (options) {
+  },
+  DateChange(e) {
+    this.setData({
+      date: e.detail.value
+    })
+  },
+  PickerChange(e) {
+    console.log(e);
+    this.setData({
+      index: e.detail.value
+    })
   }
 })
